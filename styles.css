@@ -155,3 +155,27 @@ footer{
 .whiteText{
     color:#ffffff;
 }
+
+.form-control{
+    background-color: white;
+    border: 2px solid white;
+    color: #000000;
+}
+.form-control:focus {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+
+}
+.form-floating>.form-control:focus~label{
+    color: #ffffff;
+    background-color: transparent;
+    transform: none;
+
+}
+.form-floating>label {
+    color: #ffffff;
+    background-color: transparent;
+
+}
+
